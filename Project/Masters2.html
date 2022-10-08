@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<title>Masters 2</title>
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav article article"
+    "nav footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer, article, nav, div {
+  padding: 1.2em;
+  background: black;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+a:link {
+  color: Red;
+  background-color: transparent;
+  text-decoration: none;
+}
+div {
+  padding: 60px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+</style>
+<body>
+  <header id="pageHeader"><p style="color:White;">Masters 2 - Copenhagen</header></p>
+  <article id="mainArticle"><h1 style="color:White;">FunPlus Phoenix finish historic run to win VCT Masters: Copenhagen</h1>
+	<br>
+	<p style="color:White;">After a nail-biter of a five-map series that ended with a FunPlus Phoenix victory at the Forum Copenhagen in Denmark, Kyrylo "ANGE1" Karasov used his time in the postmatch interview to thank the fan who brought the Ukrainian flag into the arena. He met the fan and draped the blue and yellow banner around his shoulders soon after.
+
+"It meant a lot," ANGE1, who was disappointed that Riot Games would not allow him to bring his own Ukrainian flag onto the stage, told the media after the match. "It felt like I went home."
+
+ANGE1 and the rest of FPX went on a historic run at the VALORANT Champions Tour Masters: Copenhagen, ultimately beating Paper Rex 3-2 in the grand final. Before that they had to go through Guild Esports, DRX, Fnatic and OpTic Gaming in order to make it to the last match of the tournament. FPX, a team that has players from two countries currently at war, had to go through more obstacles than any other team in order to achieve victory.
+<br><img src="https://static.wixstatic.com/media/e88ce2_45611e7068a84358aa6f033a92c21807~mv2.jpg/v1/fill/w_740,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e88ce2_45611e7068a84358aa6f033a92c21807~mv2.jpg"></p>
+
+<br>
+<br>
+<h1 style="color:White;">Finals MVP</h1></p>
+	<p style="color:White;">This performance by Paper Rex is the best by any Asian team in Valorant Champions Tour history. FPX's Suygetsu was named the grand final's MVP, he had a miraculous run. He was only able to attend the event from the playoffs due to his travel issues. He didn't play in the group stages and joined the FPX in playoffs and dominated the entire way. </p>
+<br>
+<img src="https://staticg.sportskeeda.com/editor/2022/07/4f9d7-16587384854958-1920.jpg" width="800" height="500">
+	
+	</article>
+  <nav id="mainNav"><div id="div:>	<ul style="color:White;">
+<li><A href="Champions.html">Champions</A></li>
+<li><A href="Masters1.html">Masters 1 - Reykjavík</A></li>
+<li><A href="Masters3.html">Masters 3 - Istanbul </A></li>
+<li><A href="Index.html">Home </A></li>
+</ul></nav>
+  <nav id="siteAds">Ads</nav>
+  <footer id="pageFooter">Footer</footer>
+</body>
